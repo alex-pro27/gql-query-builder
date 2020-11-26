@@ -10,7 +10,7 @@ requires = [str(ir.req) for ir in install_reqs]
 
 
 class PublishCommand(Command):
-    user_options: list = []
+    user_options = []
 
     def initialize_options(self):
         pass
@@ -44,7 +44,7 @@ setup(
     ],
     keywords='graphql gql query-builder',
     packages=['gql_query_builder'],
-    python_requires='>=3.6',
+    python_requires='>=2.7',
     project_urls={
         'Source': 'https://github.com/youyo/gql-query-builder',
     },

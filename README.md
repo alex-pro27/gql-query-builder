@@ -8,7 +8,7 @@ Use with method chain.
 ## Install
 
 ```
-pip install gql-query-builder
+pip install git+https://github.com/alex-pro27/gql-query-builder.git
 ```
 
 ## Usage
